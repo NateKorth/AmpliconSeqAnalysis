@@ -32,7 +32,7 @@ AmpliconTest<-as.data.frame(cbind(R1,R2))
 #Write a file for any additional customization in excel an usage in downstream analysis:  
 write.table(AmpliconTest,"AmpliconTest.csv",sep=",",row.names = FALSE,)
 ```
-#Visualize read quality and choose trimming values
+# Visualize read quality and choose trimming values
 Edit the RunR.sh script so that it only runs MakeMeta_Quality.R 
 This will generate a quality plot like this:
 [AveQuality.pdf](https://github.com/NateKorth/AmpliconSeqAnalysis/files/14921532/AveQuality.pdf)
